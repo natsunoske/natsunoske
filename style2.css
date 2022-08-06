@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@media screen and (max-wadth: 600px) {
+    #mainvisual img {
+        height: calc(100vh - 60px);
+    }
+
+    #about .content {
+        flex-direction: column;
+    }
+
+    #about img {
+        margin-right: 0;
+    }
+
+    #bicycle ul {
+        flex-direction: column;
+    }
+
+    #bicycle li {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
